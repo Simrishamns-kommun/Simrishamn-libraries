@@ -11,4 +11,7 @@
     <Copyright>Copyright © Simrishamns kommun 2024</Copyright>
   </PropertyGroup>
 
+	<PropertyGroup>
+		<PackageVersion>1.0.1-alpha</PackageVersion>
+	</PropertyGroup>
 </Project>
