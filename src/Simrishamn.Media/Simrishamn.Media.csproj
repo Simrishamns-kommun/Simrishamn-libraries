@@ -1,17 +1,31 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Title>Mediatillägg för Simrishamns kommun</Title>
-    <Company>Simrishamns kommun</Company>
-    <Description>Bibliotek med resurser för digital media producerad av Simrishamns kommun.</Description>
-    <Copyright>Copyright © Simrishamns kommun 2024</Copyright>
-  </PropertyGroup>
-
 	<PropertyGroup>
-		<PackageVersion>1.0.1-alpha</PackageVersion>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>Mediatillägg för Simrishamns kommun</Title>
+		<Company>Simrishamns kommun</Company>
+		<Description>Paket med resurser för digital media producerad av Simrishamns kommun. Paketet används för att säkerställa att mjukvara som utvecklas av Simrishamns kommun följer den grafiska profilen.</Description>
+		<Copyright>Copyright © Simrishamns kommun 2024</Copyright>
+		<PackageVersion>1.0.4-alpha</PackageVersion>
+		<Authors>KSF IT</Authors>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include="README.md">
+		  <Pack>true</Pack>
+		  <PackagePath>\</PackagePath>
+	  </Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="LICENSE.txt">
+			<Pack>true</Pack>
+			<PackagePath>\</PackagePath>
+		</Content>
+	</ItemGroup>
 </Project>
