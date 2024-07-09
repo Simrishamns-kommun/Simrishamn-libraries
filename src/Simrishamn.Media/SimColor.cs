@@ -2,7 +2,6 @@
 //// https://stackoverflow.com/questions/4087581/creating-a-c-sharp-color-from-hsl-values/4087601#4087601
 //// Stripped and adapted by Meinrad Recheis and Benjamin Kappel for MudBlazor
 
-using System;
 using System.Globalization;
 using System.Runtime.Serialization;
 using System.Text.Json.Serialization;
