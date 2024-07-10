@@ -9,7 +9,7 @@
 		<Company>Simrishamns kommun</Company>
 		<Description>Paket med resurser för digital media producerad av Simrishamns kommun. Paketet används för att säkerställa att mjukvara som utvecklas av Simrishamns kommun följer den grafiska profilen.</Description>
 		<Copyright>Copyright © Simrishamns kommun 2024</Copyright>
-		<PackageVersion>1.0.4-alpha</PackageVersion>
+		<PackageVersion>1.0.5-alpha</PackageVersion>
 		<Authors>KSF IT</Authors>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>

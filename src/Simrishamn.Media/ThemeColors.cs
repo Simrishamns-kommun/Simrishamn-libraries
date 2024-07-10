@@ -4,55 +4,49 @@ namespace Simrishamn.Media;
 
 public static class ThemeColors
 {
-    // Blue
-    public static readonly Color Primary = Color.FromArgb(255, 0, 110, 199);
-    public static readonly Color Primary80 = Color.FromArgb(255, 83, 132, 209);
-    public static readonly Color Primary60 = Color.FromArgb(255, 123, 155, 218);
-    public static readonly Color Primary40 = Color.FromArgb(255, 159, 179, 228);
-    public static readonly Color Primary20 = Color.FromArgb(255, 192, 204, 237);
+    /// <summary>
+    /// Primärfärg (Blå)
+    /// </summary>
+    public static readonly SimColor Primary = new(0, 110, 199, 255);
+    public static readonly SimColor Primary80 = new(83, 132, 209, 255);
+    public static readonly SimColor Primary60 = new(123, 155, 218, 255);
+    public static readonly SimColor Primary40 = new(159, 179, 228, 255);
+    public static readonly SimColor Primary20 = new(192, 204, 237, 255);
 
     // Yellow
-    public static readonly Color Secondary = Color.FromArgb(255, 252, 201, 23);
-    public static readonly Color Secondary80 = Color.FromArgb(255, 255, 210, 79);
-    public static readonly Color Secondary60 = Color.FromArgb(255, 255, 218, 117);
-    public static readonly Color Secondary40 = Color.FromArgb(255, 255, 227, 152);
-    public static readonly Color Secondary20 = Color.FromArgb(255, 255, 236, 186);
+    public static readonly SimColor Secondary = new(252, 201, 23, 255);
+    public static readonly SimColor Secondary80 = new(255, 210, 79, 255);
+    public static readonly SimColor Secondary60 = new(255, 218, 117, 255);
+    public static readonly SimColor Secondary40 = new(255, 227, 152, 255);
+    public static readonly SimColor Secondary20 = new(255, 236, 186, 255);
 
     // Red
-    public static readonly Color Tertiary = Color.FromArgb(255, 230, 13, 46);
-    public static readonly Color Tertiary80 = Color.FromArgb(255, 242, 80, 77);
-    public static readonly Color Tertiary60 = Color.FromArgb(255, 255, 144, 133);
-    public static readonly Color Tertiary40 = Color.FromArgb(255, 255, 172, 162);
-    public static readonly Color Tertiary20 = Color.FromArgb(255, 255, 200, 192);
+    public static readonly SimColor Tertiary = new(230, 13, 46, 255);
+    public static readonly SimColor Tertiary80 = new(242, 80, 77, 255);
+    public static readonly SimColor Tertiary60 = new(255, 144, 133, 255);
+    public static readonly SimColor Tertiary40 = new(255, 172, 162, 255);
+    public static readonly SimColor Tertiary20 = new(255, 200, 192, 255);
 
     // Green
-    public static readonly Color AlternateOne = Color.FromArgb(255, 51, 115, 33);
-    public static readonly Color AlternateOne80 = Color.FromArgb(255, 87, 138, 69);
-    public static readonly Color AlternateOne60 = Color.FromArgb(255, 120, 160, 104);
-    public static readonly Color AlternateOne40 = Color.FromArgb(255, 154, 184, 140);
-    public static readonly Color AlternateOne20 = Color.FromArgb(255, 187, 207, 177);
+    public static readonly SimColor AlternateOne = new(51, 115, 33, 255);
+    public static readonly SimColor AlternateOne80 = new(87, 138, 69, 255);
+    public static readonly SimColor AlternateOne60 = new(120, 160, 104, 255);
+    public static readonly SimColor AlternateOne40 = new(154, 184, 140, 255);
+    public static readonly SimColor AlternateOne20 = new(187, 207, 177, 255);
 
     // Orange
-    public static readonly Color AlternateTwo = Color.FromArgb(255, 255, 158, 27);
-    public static readonly Color AlternateTwo80 = Color.FromArgb(255, 255, 174, 75);
-    public static readonly Color AlternateTwo60 = Color.FromArgb(255, 255, 190, 112);
-    public static readonly Color AlternateTwo40 = Color.FromArgb(255, 255, 206, 148);
-    public static readonly Color AlternateTwo20 = Color.FromArgb(255, 255, 222, 183);
+    public static readonly SimColor AlternateTwo = new(255, 158, 27, 255);
+    public static readonly SimColor AlternateTwo80 = new(255, 174, 75, 255);
+    public static readonly SimColor AlternateTwo60 = new(255, 190, 112, 255);
+    public static readonly SimColor AlternateTwo40 = new(255, 206, 148, 255);
+    public static readonly SimColor AlternateTwo20 = new(255, 222, 183, 255);
 
-    public static readonly Color AlternateThree = Color.FromArgb(255, 115, 115, 115);
-    public static readonly Color AlternateThree80 = Color.FromArgb(255, 137, 137, 137);
-    public static readonly Color AlternateThree60 = Color.FromArgb(255, 159, 159, 159);
-    public static readonly Color AlternateThree40 = Color.FromArgb(255, 182, 182, 182);
-    public static readonly Color AlternateThree20 = Color.FromArgb(255, 206, 206, 206);
+    // Gray
+    public static readonly SimColor AlternateThree = new(115, 115, 115, 255);
+    public static readonly SimColor AlternateThree80 = new(137, 137, 137, 255);
+    public static readonly SimColor AlternateThree60 = new(159, 159, 159, 255);
+    public static readonly SimColor AlternateThree40 = new(182, 182, 182, 255);
+    public static readonly SimColor AlternateThree20 = new(206, 206, 206, 255);
 
-    // Method to convert Color to Hexadecimal String
-    public static string ToRgbHex(Color color)
-    {
-        return $"#{color.R:X2}{color.G:X2}{color.B:X2}";
-    }
-
-    public static string ToRgbaHex(Color color)
-    {
-        return $"#{color.R:X2}{color.G:X2}{color.B:X2}{color.A:X2}";
-    }
+    
 }
