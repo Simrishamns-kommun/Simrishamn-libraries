@@ -48,5 +48,9 @@ public static class ThemeColors
     public static readonly SimColor AlternateThree40 = new(182, 182, 182, 255);
     public static readonly SimColor AlternateThree20 = new(206, 206, 206, 255);
 
-    
+    // White
+    public static readonly SimColor White = new(255, 255, 255, 255);
+    public static readonly SimColor Black = new(0, 0, 0, 255);
+
+
 }
